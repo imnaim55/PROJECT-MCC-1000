@@ -1,0 +1,47 @@
+/* admin login page */
+
+#login-container {
+    background-color: #fff;
+    padding: 3.125rem;
+    border-radius: 1.5625rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    margin: 5% 34%;
+}
+
+.form-group {
+    margin-bottom: 0.9375rem;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.3125rem;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.25rem;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.625rem 1.25rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+/* admin login page */

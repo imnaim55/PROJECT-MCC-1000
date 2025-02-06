@@ -1,0 +1,155 @@
+/******************* 
+    Contact Page Start
+******************/
+
+#contact-page {
+    background-image: url(contactbanner1.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0.875rem;
+}
+
+
+#contact-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact-page p {
+    color: #000;
+}
+
+#contact-page h2 {
+    color: #000;
+}
+
+#contact-details .details {
+    width: 40%;
+}
+
+
+#contact-details .details span,
+#form-details form span {
+    font-size: 0.75rem;
+}
+
+
+#contact-details .details h2,
+#form-details form h2 {
+    font-size: 1.625rem;
+    line-height: 2.1875rem;
+    padding: 1.25rem 0;
+}
+
+
+#contact-details .details h3 {
+    font-size: 1rem;
+    padding-bottom: 0.9375rem;
+}
+
+
+#contact-details .details li {
+    list-style: none;
+    display: flex;
+    padding: 0.625rem 0;
+}
+
+
+#contact-details .details li i {
+    font-size: 0.875rem;
+    padding-right: 1.375rem;
+}
+
+
+#contact-details .details li p {
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+
+#contact-details .map {
+    width: 60%;
+    height: 34.375rem;
+}
+
+
+#contact-details .map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+#form-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.875rem;
+    padding: 5rem;
+    border: 0.0625rem solid #e1e1e1;
+}
+
+
+#form-details form {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+#form-details form input,
+#form-details form textarea {
+    width: 100%;
+    padding: 0.75rem 0.9375rem;
+    outline: none;
+    margin-bottom: 1.25rem;
+    border: 0.0625rem solid #e1e1e1;
+}
+
+
+#form-details form button {
+    background-color: #088178;
+    color: #fff;
+}
+
+
+#form-details .people div {
+    padding-bottom: 2.5rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+#form-details .people div img {
+    width: 4.0625rem;
+    height: 4.0625rem;
+    object-fit: cover;
+    margin-right: 0.9375rem;
+}
+
+
+#form-details .people div p {
+    margin: 0;
+    font-size: 0.8125rem;
+    line-height: 1.5625rem;
+}
+
+
+#form-details .people div p span {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000;
+
+}
+
+
+#form-details .people {
+    margin-top: 9.375rem;
+    margin-left: 3.125rem;
+}

@@ -1,0 +1,41 @@
+/******************* 
+    About Page start
+******************/
+
+#about-page {
+    background-image: url(aboutbanner.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0.875rem;
+}
+
+
+
+#about-page h2,
+#about-page p {
+    color: #ffffff;
+}
+
+
+#about-head {
+    display: flex;
+    align-items: center;
+}
+
+
+#about-head img {
+    width: 50%;
+    height: auto;
+}
+
+#about-head div {
+    width: 80%;
+    padding-left: 2.5rem;
+    line-height: 2.1875rem;
+
+}

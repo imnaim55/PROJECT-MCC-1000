@@ -1,0 +1,134 @@
+/******************* 
+    Cart Page Start
+******************/
+
+#cart {
+    overflow-x: auto;
+}
+
+
+#cart table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart table img {
+    width: 4.375rem;
+}
+
+
+#cart table td:nth-child(1) {
+    width: 6.25rem;
+    text-align: center;
+}
+
+
+#cart table td:nth-child(2) {
+    width: 9.375rem;
+    text-align: center;
+}
+
+
+#cart table td:nth-child(3) {
+    width: 15.625rem;
+    text-align: center;
+}
+
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6) {
+    width: 9.375rem;
+    text-align: center;
+}
+
+
+#cart table td:nth-child(5) input {
+    width: 3.75rem;
+    padding: 0.625rem 0.3125rem 0.625rem 0.9375rem;
+}
+
+
+#cart table thead {
+    border: 0.0625rem solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+}
+
+
+#cart table thead td {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.8125rem;
+    padding: 1.125rem 0;
+}
+
+
+#cart table tbody tr td {
+    padding-top: 0.9375rem;
+}
+
+
+
+#cart table tbody td {
+    font-size: 1.25rem;
+}
+
+
+#cart-add {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+#coupon {
+    width: 50%;
+    margin-bottom: 1.875rem;
+    margin-top: 5.125rem;
+}
+
+#coupon h3,
+#subtotal h3 {
+    padding-bottom: 0.9375rem;
+}
+
+
+#coupon input {
+    padding: 0.625rem 1.25rem;
+    outline: none;
+    width: 60%;
+    margin-right: 0.625rem;
+    border: 0.0625rem solid #e2e9e2;
+}
+
+#coupon button,
+#subtotal button {
+    background-color: #088178;
+    color: #fff;
+    padding: 0.75rem 1.25rem;
+}
+
+
+#subtotal {
+    width: 50%;
+    margin-bottom: 1.875rem;
+    border: 0.0625rem solid #e2e9e1;
+    padding: 1.875rem;
+}
+
+
+#subtotal table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1.25rem;
+}
+
+#subtotal table td {
+    width: 50%;
+    border: 0.625rem solid #e2e9e1;
+    padding: 0.625rem;
+    font-size: 0.8125rem;
+}
