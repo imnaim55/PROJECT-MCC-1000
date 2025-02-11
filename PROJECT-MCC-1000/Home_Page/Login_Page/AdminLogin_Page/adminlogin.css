@@ -1,47 +1,60 @@
-/* admin login page */
-
-#login-container {
+/* Centering the Container */
+.admin-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
     background-color: #fff;
-    padding: 3.125rem;
-    border-radius: 1.5625rem;
-    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
-    width: 30%;
+  }
+  
+  .admin-login-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
     text-align: center;
-    margin: 5% 34%;
-}
-
-.form-group {
-    margin-bottom: 0.9375rem;
+  }
+  
+  /* Form Input Styling */
+  .input-group {
+    margin-bottom: 15px;
     text-align: left;
-}
-
-label {
-    font-weight: bold;
+  }
+  
+  .input-group label {
     display: block;
-    margin-bottom: 0.3125rem;
-}
-
-input[type="text"],
-input[type="password"] {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
     width: 100%;
-    padding: 0.5rem;
-    border: 0.0625rem solid #ccc;
-    border-radius: 0.25rem;
-}
-
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 0.625rem 1.25rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Login Button */
+  .normal2 {
+    width: 100%;
+    padding: 10px;
+    background: #088178;
+    color: #fff;
     border: none;
-    border-radius: 0.25rem;
+    border-radius: 5px;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 16px;
+  }
+  
+  .normal2:hover {
+    background: #066f66;
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 6rem;
+    color: #222;
+    margin-bottom: 1rem;
 }
-
-button:hover {
-    background-color: #45a049;
-}
-
-
-/* admin login page */
+  

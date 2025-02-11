@@ -11,7 +11,7 @@
     />
     <link rel="stylesheet" href="../global.css" />
     <link rel="stylesheet" href="../responsive.css" />
-    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="shop.css" />
   </head>
 
   <body>
@@ -24,27 +24,31 @@
           <li><a class="active" href="shop.html">Shop</a></li>
           <li><a href="../About_Page/about.html">About</a></li>
           <li><a href="../Contact_Page/contact.html">Contact</a></li>
-          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
-          <li id="user" class="dropdown">
-            <a href="#"><i class="fa-solid fa-user"></i></a>
-            <ul class="dropdown-content">
-              <li><a href="../Login_Page/UserLogin_Page/userlogin.html">Customer Login</a></li>
-              <li><a href="../Login_Page/AdminLogin_Page/adminlogin.html">Admin Login</a></li>
-            </ul>
-          </li>
-          <li id="lg-bag">
-            <a href="../Cart_Page/cart.html"><i class="fa-solid fa-store"></i></a>
+          <li id="menu-icon">
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
           </li>
         </ul>
       </div>
-      <div id="mobile">
-        <a
-          ><a href="../Login_Page/UserLogin_Page/userlogin.html"><i class="fa-solid fa-user"></i></a
-        ></a>
-        <a href="../Cart_Page/cart.html"><i class="fa-solid fa-store"></i></a>
-        <i id="bar" class="fa-solid fa-bars"></i>
-      </div>
     </section>
+    <!-- Right-Side Menu (Sliding) -->
+    <div id="sideMenu">
+      <a href="#" id="closeMenu"><i class="fa-solid fa-xmark"></i></a>
+      <ul>
+        <li><a href="#">Celebration Cakes</a></li>
+        <li><a href="#">Theme Cakes</a></li>
+        <li><a href="#">Anniversary Cakes</a></li>
+        <li><a href="#">Birthday Cakes</a></li>
+        <li><a href="#">Pastries</a></li>
+        <li><a href="../Login_Page/UserLogin_Page/userlogin.html">Log-In</a></li>
+        <li><a href="../Login_Page/AdminLogin_Page/adminlogin.html">Admin Log-In</a></li>
+      </ul>
+      <!-- Cart Icon Inside Menu -->
+      <div id="cart-icon">
+        <a href="../Cart_Page/cart.html"
+          ><i class="fa-solid fa-cart-shopping"></i
+        ></a>
+      </div>
+    </div>
     <!-- header section end  -->
 
     <!-- page header section start -->
@@ -254,7 +258,10 @@
       </div>
       <div class="form">
         <input type="text" placeholder="Your email address" />
-        <button class="normal" onclick="window.location.href='../Login_Page/UserLogin_Page/userlogin.html'">
+        <button
+          class="normal"
+          onclick="window.location.href='../Login_Page/UserLogin_Page/userlogin.html'"
+        >
           Sign Up
         </button>
       </div>
@@ -285,17 +292,31 @@
       </div>
       <div class="col">
         <h4>About</h4>
-        <a href="#" onclick="window.location.href='../About_Page/about.html'">About us</a>
+        <a href="#" onclick="window.location.href='../About_Page/about.html'"
+          >About us</a
+        >
         <a href="#">Delivery Information</a>
         <a href="#">Privacy Policy</a>
         <a href="#">Terms & Conditions</a>
-        <a href="#" onclick="window.location.href='../Contact_Page/contact.html'">Contact Us</a>
+        <a
+          href="#"
+          onclick="window.location.href='../Contact_Page/contact.html'"
+          >Contact Us</a
+        >
       </div>
       <div class="col">
         <h4>My Account</h4>
-        <a href="#" onclick="window.location.href='../Login_Page/UserLogin_Page/userlogin.html'">Sign In</a>
-        <a href="#" onclick="window.location.href='../Cart_Page/cart.html'">View Cart</a>
-        <a href="#" onclick="window.location.href='../Cart_Page/cart.html'">My Wishlist</a>
+        <a
+          href="#"
+          onclick="window.location.href='../Login_Page/UserLogin_Page/userlogin.html'"
+          >Sign In</a
+        >
+        <a href="#" onclick="window.location.href='../Cart_Page/cart.html'"
+          >View Cart</a
+        >
+        <a href="#" onclick="window.location.href='../Cart_Page/cart.html'"
+          >My Wishlist</a
+        >
         <a href="#">Track My Order</a>
         <a href="#">Help</a>
       </div>
@@ -303,20 +324,20 @@
         <h4>Install App</h4>
         <p>From App store or Google Play</p>
         <div class="row" style="display: flex">
-          <img src="googleplay (2).png" alt="" style="width: 150px" />
-          <img src="apple2.png" alt="" style="width: 150px" />
+          <img src="../googleplay (2).png" alt="" style="width: 150px" />
+          <img src="../apple2.png" alt="" style="width: 150px" />
         </div>
         <p>Secured Payment Gateways</p>
-        <img src="pay.png" alt="" style="width: 250px" />
+        <img src="../pay.png" alt="" style="width: 250px" />
       </div>
 
       <div class="copyright">
-        <p>ⓒ 2024, Naim Sk etc - HTML CSS Ecommerce Template</p>
+        <p>ⓒ 2025, Naim Sk etc - HTML CSS Ecommerce Template</p>
       </div>
     </footer>
     <!-- footer section end  -->
 
-    <script src="../script.js"></script>
+    <script src="../dropdown.js"></script>
     <script src="../hamburger.js"></script>
   </body>
 </html>

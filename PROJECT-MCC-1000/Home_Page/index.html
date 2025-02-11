@@ -14,7 +14,7 @@
   </head>
 
   <body>
-    <!-- header section start  -->
+    <!-- Header Section -->
     <section id="header">
       <a href="#"><img src="logo3.png" class="logo" alt="Logo" /></a>
       <div>
@@ -23,49 +23,33 @@
           <li><a href="Shop_Page/shop.html">Shop</a></li>
           <li><a href="About_Page/about.html">About</a></li>
           <li><a href="Contact_Page/contact.html">Contact</a></li>
-          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
-          <li id="user" class="dropdown">
-            <a href="#"><i class="fa-solid fa-user"></i></a>
-            <ul class="dropdown-content">
-              <li>
-                <a href="Login_Page/UserLogin_Page/userlogin.html"
-                  >Customer Login</a
-                >
-              </li>
-              <li>
-                <a href="Login_Page/AdminLogin_Page/adminlogin.html"
-                  >Admin Login</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li id="lg-bag">
-            <a href="Cart_Page/cart.html"><i class="fa-solid fa-store"></i></a>
+          <li id="menu-icon">
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
           </li>
         </ul>
       </div>
-      <div id="mobile">
-        <div class="dropdown">
-          <a href="#"><i class="fa-solid fa-user"></i></a>
-          <ul class="dropdown-content">
-            <li>
-              <a href="Login_Page/UserLogin_Page/userlogin.html"
-                >Customer Login</a
-              >
-            </li>
-            <li>
-              <a href="Login_Page/AdminLogin_Page/adminlogin.html"
-                >Admin Login</a
-              >
-            </li>
-          </ul>
-        </div>
-        <a href="Cart_Page/cart.html"><i class="fa-solid fa-store"></i></a>
-        <i id="bar" class="fa-solid fa-bars"></i>
-      </div>
     </section>
 
-    <!-- header section end  -->
+    <!-- Right-Side Menu (Sliding) -->
+    <div id="sideMenu">
+      <a href="#" id="closeMenu"><i class="fa-solid fa-xmark"></i></a>
+      <ul>
+        <li><a href="#">Celebration Cakes</a></li>
+        <li><a href="#">Theme Cakes</a></li>
+        <li><a href="#">Anniversary Cakes</a></li>
+        <li><a href="#">Birthday Cakes</a></li>
+        <li><a href="#">Pastries</a></li>
+        <li><a href="Login_Page\UserLogin_Page\userlogin.html">Log-In</a></li>
+        <li><a href="Login_Page\AdminLogin_Page\adminlogin.html">Admin Log-In</a></li>
+      </ul>
+      <!-- Cart Icon Inside Menu -->
+      <div id="cart-icon">
+        <a href="Cart_Page/cart.html"
+          ><i class="fa-solid fa-cart-shopping"></i
+        ></a>
+      </div>
+    </div>
+    <!-- Header Section End -->
 
     <!-- hero section start -->
     <section id="hero">
@@ -598,7 +582,7 @@
       </div>
 
       <div class="copyright">
-        <p>ⓒ 2024, Naim Sk etc - HTML CSS Ecommerce Template</p>
+        <p>ⓒ 2025, Naim Sk etc - HTML CSS Ecommerce Template</p>
       </div>
     </footer>
     <!-- footer section end  -->
@@ -606,5 +590,6 @@
     <script src="script.js"></script>
     <script src="hamburger.js"></script>
     <script src="sliderbanner.js"></script>
+    <script src="dropdown.js"></script>
   </body>
 </html>

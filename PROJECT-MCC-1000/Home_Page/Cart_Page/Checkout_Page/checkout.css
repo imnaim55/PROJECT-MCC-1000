@@ -1,93 +1,106 @@
-/* Checkout page start*/
-
-#checkout h2 {
-    text-align: center;
-    margin-top: 1.25rem;
-    font-size: 1.25rem;
-    color: #333;
-}
-
+/* Payment Section Styles */
 #payment {
-    max-width: 37.5rem;
-    margin: 1.25rem auto;
-    background: white;
-    padding: 1.25rem;
-    box-shadow: 0rem 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
-    border-radius: 0.5rem;
-    text-align: center;
-}
-
-label {
-    font-weight: bold;
-    margin-right: 0.625rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  #payment h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  #payment label {
+    font-weight: 500;
     display: block;
-}
-
-input[type="text"],
-input[type="month"],
-select {
-    width: 100%;
-    padding: 0.625rem;
-    margin-top: 0.625rem;
-    margin-bottom: 1.25rem;
-    border-radius: 0.3125rem;
-    border: 0.0625rem solid #ccc;
-    font-size: 0.625rem;
-}
-
-select {
-    font-weight: bold;
-    border: 0.0625rem solid #aaa;
-    background-color: #f9f9f9;
-}
-
-button {
-    background-color: #28a745;
-    color: white;
-    font-size: 1rem;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #218838;
-}
-
-#qrCodeContainer {
-    text-align: center;
-    margin: 1.25rem 0;
-    margin-bottom: 3.125rem;
-}
-
-#totalAmount p {
-    font-size: 0.9375rem;
-    font-weight: bold;
-    color: #333;
-}
-
-
-.delivery-address,
-.payment-method {
-    border: 0.0625rem solid #ddd;
-    border-radius: 0.3125rem;
-    padding: 0.9375rem;
-    margin-bottom: 0.9375rem;
-    background-color: #f9f9f9;
-}
-
-.delivery-address h3,
-.payment-method h3 {
-    margin-bottom: 0.625rem;
+    margin: 0.5rem 0 0.2rem;
     color: #555;
-}
-
-.icon i {
-    margin: 0 0.3125rem;
-}
-
-footer .col {
+  }
+  
+  #payment input,
+  #payment select {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s;
+  }
+  
+  #payment input:focus,
+  #payment select:focus {
+    border-color: #ff6600;
+  }
+  
+  #payment button {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background: #088178;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #payment button:hover {
+    background: #066f66;
+  }
+  
+  /* Payment Method Styling */
+  .payment-method label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .payment-method input {
+    width: auto;
+    margin: 0;
+  }
+  
+  /* GPS Button */
+  #detectLocationButton {
+    background: #007bff;
+    color: #fff;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #detectLocationButton:hover {
+    background: #0056b3;
+  }
+  
+  /* Hidden Sections for Card & UPI */
+  #cardDetails,
+  #upiDetails {
+    display: none;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  
+  /* Total Amount Section */
+  #totalAmount {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: #fffae6;
+    border-radius: 5px;
+    font-weight: bold;
     color: #333;
-}
-
-/* Checkout page end*/
+  }
+  

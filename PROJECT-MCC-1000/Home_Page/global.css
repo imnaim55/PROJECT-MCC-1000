@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 
@@ -93,7 +93,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.25rem 5rem;
+    padding: 1.25rem 3.5rem;
     background: #E3E6F3;
     box-shadow: 0 0.3125rem 0.9375rem rgba(0, 0, 0, 0.06);
     z-index: 999;
@@ -123,7 +123,7 @@ body {
 
 #navbar li a {
     text-decoration: none;
-    font-size: 1.375rem;
+    font-size: 1.6rem;
     font-weight: 600;
     color: #1a1a1a;
     transition: 0.3s ease;
@@ -483,7 +483,7 @@ body {
 
 
 #newsletter button {
-    margin-top: 0.6rem;
+    margin-top: 0;
     height: 3.2031rem;
     background-color: #088178;
     color: #fff;
@@ -562,42 +562,95 @@ footer .copyright {
 /* footer section end */
 
 
-/* User login dropdown menu start */
+/* Updated Slider Menu Styles */
+#sideMenu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 18rem;
+    height: 100%;
+    background: #E3E6F3;
+    box-shadow: -0.3125rem 0 0.9375rem rgba(0, 0, 0, 0.06);
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
 
-.dropdown-content {
-    display: none;
+#closeMenu {
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: auto;
-    height: auto;
-    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    border-radius: 0.5rem;
-    padding: 1.875rem 0;
-    left: 0;
-    transform: translate(-30%);
-}
-
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown-content li {
-    padding: 0.75rem 1rem;
+    top: 1rem;
+    left: 1rem;
+    font-size: 1.5rem;
+    color: #1a1a1a;
     text-decoration: none;
+    cursor: pointer;
+}
+
+#sideMenu ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 3rem;
+}
+
+#sideMenu ul li {
+    padding: 0.5rem 0;
+}
+
+#sideMenu ul li a {
+    text-decoration: none;
+    font-size: 1.375rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: all 0.3s ease;
     display: block;
-    margin-bottom: 1.25rem;
+    padding: 0.75rem 1rem;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Add border and hover effect */
+#sideMenu ul li a:hover {
+    color: #088178;
+    background: #fff;
+    border: 0.5px solid #088178;
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Cart Icon Styling */
+#sideMenu #cart-icon {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+#sideMenu #cart-icon a {
+    font-size: 1.75rem;
+    color: #088178;
+    text-decoration: none;
+}
+
+#sideMenu.active {
+    right: 0;
+}
+
+#cart-icon {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#cart-icon a {
+    font-size: 1.75rem;
+    color: #088178;
+    text-decoration: none;
+}
+
+#navbar .cart-icon {
+    display: none !important;
 }
 
 
-.dropdown-content li:last-child {
-    margin-bottom: 0;
-}
-
-.dropdown-content li:hover {
-    background-color: #f1f1f1;
-}
-
-/* User login dropdown menu end */
+  
 
